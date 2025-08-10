@@ -1,0 +1,125 @@
+@define-color background      #1a1a1a;
+@define-color foreground      #ffd479;
+@define-color color1          #ff5c33; /* Orange-red */
+@define-color color2          #ffcc00; /* Yellow */
+@define-color color3          #ff9933; /* Yellow-orange */
+@define-color color4          #ff6666; /* Red-pink */
+@define-color color5          #ffaa00; /* Vivid yellow */
+@define-color color6          #ff3300; /* Vivid red */
+@define-color urgent          @color6;
+@define-color selected        @color2;
+@define-color hover           alpha(@color5, 0.4);
+@define-color background-alt  alpha(@color1, 0.15);
+@define-color text            @foreground;
+
+* {
+    all: unset;
+    font-family: "SpaceMono Nerd Font 10";
+    font-size: 14px;
+    transition: 300ms ease;
+    color: @text;
+}
+
+/* Waybar main bar */
+window#waybar {
+    background-color: alpha(@background, 0.85);
+    border-radius: 12px;
+    padding: 6px 10px;
+    border: 1px solid @color2;
+    box-shadow: 0 0 15px 3px @color3;
+}
+
+/* Glow effect for modules */
+#workspaces,
+#clock,
+#battery,
+#network,
+#pulseaudio,
+#tray,
+#custom-launcher,
+#custom-power {
+    padding: 4px 10px;
+    background-color: @background-alt;
+    margin: 0 6px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px 2px @color1;
+}
+
+#workspaces button {
+    color: @text;
+    padding: 4px 8px;
+    border-radius: 6px;
+    margin: 0 4px;
+    background: transparent;
+    box-shadow: 0 0 6px 1px alpha(@color2, 0.3);
+}
+
+#workspaces button.active {
+    background-color: @selected;
+    color: @background;
+    box-shadow: 0 0 6px 2px @selected;
+}
+
+#workspaces button:hover {
+    background-color: @hover;
+    box-shadow: 0 0 6px 2px @hover;
+}
+
+#clock {
+    font-weight: bold;
+    background-color: alpha(@color2, 0.2);
+    box-shadow: 0 0 10px 3px @color2;
+}
+
+#battery {
+    background-color: alpha(@color1, 0.2);
+}
+
+#battery.critical {
+    background-color: @urgent;
+    color: black;
+    animation: blink 1s infinite;
+}
+
+#network {
+    background-color: alpha(@color1, 0.2);
+}
+
+#pulseaudio {
+    background-color: alpha(@color1, 0.2);
+}
+
+#tray {
+    background-color: alpha(@color1, 0.1);
+}
+
+#custom-power {
+    background-color: @urgent;
+    color: black;
+    font-weight: bold;
+    box-shadow: 0 0 10px 3px @urgent;
+}
+
+/* Hover effects */
+#battery:hover,
+#network:hover,
+#pulseaudio:hover,
+#tray:hover,
+#clock:hover,
+#custom-power:hover {
+    background-color: @hover;
+    box-shadow: 0 0 12px 4px @hover;
+}
+
+/* Animation for urgent battery */
+@keyframes blink {
+    0% {
+        background-color: @urgent;
+    }
+    50% {
+        background-color: @background;
+    }
+    100% {
+        background-color: @urgent;
+    }
+}

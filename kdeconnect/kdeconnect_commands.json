@@ -1,0 +1,106 @@
+[
+    {
+        "command": "brightnessctl s 10%-",
+        "name": "Brightness Down"
+    },
+    {
+        "command": "brightnessctl s 10%+",
+        "name": "Brightness Up"
+    },
+    {
+        "command": "systemctl hibernate",
+        "name": "Hibernate"
+    },
+    {
+        "command": "hyprlock",
+        "name": "Lock Screen"
+    },
+    {
+        "command": "wpctl set-mute @DEFAULT_AUDIO_SOURCE@ 1 && notify-send \"Microphone Muted\"",
+        "name": "Mute Mic"
+    },
+    {
+        "command": "wpctl set-mute @DEFAULT_AUDIO_SINK@ 1 && notify-send \"Speakers Muted\"",
+        "name": "Mute Speaker"
+    },
+    {
+        "command": "systemctl reboot",
+        "name": "Reboot"
+    },
+    {
+        "command": "$HOME/.config/hypr/ScreenShot.sh --now",
+        "name": "Screenshot"
+    },
+    {
+        "command": "$HOME/.config/kdeconnect/kdeconnect_scrsht.sh",
+        "name": "Screenshot to Phone"
+    },
+    {
+        "command": "systemctl poweroff",
+        "name": "Shutdown"
+    },
+    {
+        "command": "systemctl suspend",
+        "name": "Suspend"
+    },
+    {
+        "command": "wpctl set-mute @DEFAULT_AUDIO_SOURCE@ 0 && notify-send \"Microphone Unmuted\"",
+        "name": "Unmute Mic"
+    },
+    {
+        "command": "wpctl set-mute @DEFAULT_AUDIO_SINK@ 0 && notify-send \"Speakers Unmuted\"",
+        "name": "Unmute Speakers"
+    },
+    {
+        "command": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-",
+        "name": "Volume Down"
+    },
+    {
+        "command": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+",
+        "name": "Volume Up"
+    },
+    {
+        "command": "file=\"$HOME/Pictures/WebcamImage_$(date \"+%Y%m%d_%H%M%S\").jpg\"; ffmpeg -f video4linux2 -input_format mjpeg -s 1280x720 -i /dev/video0 -frames:v 1 \"${file}\" && kdeconnect-cli -d $(kdeconnect-cli -a --id-only) --share \"${file}\"",
+        "name": "WebCam to Phone"
+    },
+    {
+        "command": "hyprctl dispatch workspace 1",
+        "name": "Workspace 1"
+    },
+    {
+        "command": "hyprctl dispatch workspace 2",
+        "name": "Workspace 2"
+    },
+    {
+        "command": "hyprctl dispatch workspace 3",
+        "name": "Workspace 3"
+    },
+    {
+        "command": "hyprctl dispatch workspace 4",
+        "name": "Workspace 4"
+    },
+    {
+        "command": "hyprctl dispatch workspace 5",
+        "name": "Workspace 5"
+    },
+    {
+        "command": "hyprctl dispatch workspace 6",
+        "name": "Workspace 6"
+    },
+    {
+        "command": "hyprctl dispatch workspace 7",
+        "name": "Workspace 7"
+    },
+    {
+        "command": "hyprctl dispatch workspace 8",
+        "name": "Workspace 8"
+    },
+    {
+        "command": "hyprctl dispatch workspace 9",
+        "name": "Workspace 9"
+    },
+    {
+        "command": "",
+        "name": ""
+    }
+]

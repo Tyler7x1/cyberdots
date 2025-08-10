@@ -1,0 +1,50 @@
+window {
+    font-family: "SpaceMono Nerd Font", monospace;
+    font-size: 13pt;
+    color: #fffed0;
+    background-color: rgba(5, 5, 10, 0.95); /* darker & more solid for contrast */
+}
+
+button {
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 26px;
+    padding: 80px 20px;
+    background-size: 50%;
+    border: none;
+    color: #ffff00; /* vivid yellow */
+    text-shadow:
+        0 0 3px #ffff00,
+        0 0 8px #ffff00,
+        0 0 16px #ff0033; /* brighter red glow */
+    border-radius: 50px;
+    background-color: rgba(255, 255, 0, 0.12);
+    margin: 8px;
+
+    box-shadow:
+        0 0 20px rgba(255, 0, 50, 1),
+        0 0 35px rgba(255, 0, 50, 0.7),
+        inset 0 0 10px rgba(255, 255, 100, 0.6);
+}
+
+button:hover {
+    background-color: rgba(255, 255, 100, 0.25);
+    box-shadow:
+        0 0 25px rgba(255, 0, 50, 1),
+        0 0 40px rgba(255, 0, 50, 0.9),
+        inset 0 0 15px rgba(255, 255, 100, 0.8);
+}
+
+button:active {
+    box-shadow:
+        0 0 15px rgba(255, 0, 0, 1),
+        inset 0 0 12px rgba(255, 255, 102, 0.9);
+}
+
+/* Icon mappings */
+#lock      { background-image: url("icons/lock.png"); }
+#logout    { background-image: url("icons/logout.png"); }
+#suspend   { background-image: url("icons/suspend.png"); }
+#shutdown  { background-image: url("icons/shutdown.png"); }
+#reboot    { background-image: url("icons/reboot.png"); }
+#hibernate { background-image: url("icons/hibernate.png"); }

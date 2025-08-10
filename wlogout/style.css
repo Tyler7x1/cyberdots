@@ -1,0 +1,49 @@
+window {
+    font-family: "SpaceMono Nerd Font", monospace;
+    font-size: 13pt;
+    color: #fffed0;
+    background-color: rgba(10, 10, 20, 0.7); /* Translucent dark backdrop */
+}
+
+button {
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 26px;
+    padding: 60px 20px;
+    background-size: 50%;
+    color: #ffff66; /* neon yellow text */
+
+    text-shadow:
+        0 0 4px #ffff66,
+        0 0 8px #ffff66;
+
+    background-color: rgba(255, 255, 100, 0.6); /* neon yellow base */
+    border: 2px solid black;
+    border-radius: 50px;
+    margin: 8px;
+
+    box-shadow:
+        0 0 18px rgba(255, 0, 50, 0.85),       /* bright red outer glow */
+        0 0 10px rgba(255, 255, 100, 0.4),     /* soft yellow halo */
+        inset 0 0 10px rgba(255, 255, 120, 0.5); /* bright yellow inner glow */
+
+    transition:
+        background-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 130, 0.9);
+    box-shadow:
+        0 0 26px rgba(255, 0, 70, 1),          /* intense red outer glow on hover */
+        0 0 14px rgba(255, 255, 100, 0.7),
+        inset 0 0 12px rgba(255, 255, 160, 0.8);
+}
+
+/* Icon mappings */
+#lock      { background-image: url("icons/lock.png"); }
+#logout    { background-image: url("icons/logout.png"); }
+#suspend   { background-image: url("icons/suspend.png"); }
+#shutdown  { background-image: url("icons/shutdown.png"); }
+#reboot    { background-image: url("icons/reboot.png"); }
+#hibernate { background-image: url("icons/hibernate.png"); }

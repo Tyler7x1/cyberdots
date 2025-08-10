@@ -1,0 +1,184 @@
+@import url("cyberpunk.css");
+
+* {
+    font-family: "SpaceMono Nerd Font";
+    font-size: 15px;
+}
+
+window#waybar {
+    background: rgba(0, 0, 0, 0.4);
+    color: @yellow;
+    border-radius: 7rem;
+    border-width: 2px;
+    border-style: solid;
+    border-color: @yellow;
+    text-shadow:
+        0 0 5px @yellow,
+        0 0 10px @yellow;
+    box-shadow: 0 0 10px @yellow;
+    padding: 3px 0;
+}
+
+window#waybar.empty #window {
+    background-color: transparent;
+    padding: 0px;
+    border: 0px;
+}
+
+/* All modules + custom ones + window */
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#wireplumber,
+#custom-media,
+#tray,
+#bluetooth,
+#mode,
+#idle_inhibitor,
+#scratchpad,
+#power-profiles-daemon,
+#language,
+#mpd,
+#custom-arch,
+#custom-search,
+#custom-swaync,
+#custom-power,
+#window {
+    background-color: transparent;
+    padding: 0 12px;
+    margin: 5px 5px;
+    border-radius: 7rem;
+    color: @yellow;
+    text-shadow: 0 0 4px @yellow;
+}
+
+/* Workspaces container */
+#workspaces {
+    border-radius: 7rem;
+    background-color: transparent;
+    margin: 5px 6px;
+}
+
+/* Workspace buttons */
+#workspaces button {
+    color: @yellow;
+    border-radius: 7rem;
+    text-shadow: 0 0 4px @yellow;
+    background-color: transparent;
+    margin: 5px 6px;
+    padding: 0 10px;
+}
+
+/* 3D pill effect for active workspace */
+#workspaces button.active {
+    background: linear-gradient(
+        to bottom,
+        #ffff66,
+        #ffeb3b 40%,
+        #e6c200 80%,
+        #b8860b
+    );
+    color: @base;
+    border-radius: 7rem;
+    text-shadow: none;
+    box-shadow:
+        0 6px 12px rgba(0, 0, 0, 0.4),
+        inset 0 -3px 6px rgba(0, 0, 0, 0.45),
+        inset 0 3px 4px rgba(255, 255, 255, 0.35);
+}
+
+/* Shared hover/active styling */
+#clock:hover,
+#battery:hover,
+#cpu:hover,
+#memory:hover,
+#disk:hover,
+#temperature:hover,
+#backlight:hover,
+#network:hover,
+#pulseaudio:hover,
+#wireplumber:hover,
+#custom-media:hover,
+#tray:hover,
+#mode:hover,
+#bluetooth:hover,
+#idle_inhibitor:hover,
+#scratchpad:hover,
+#power-profiles-daemon:hover,
+#language:hover,
+#mpd:hover,
+#custom-arch:hover,
+#custom-search:hover,
+#custom-swaync:hover,
+#custom-power:hover,
+#window:hover,
+#workspaces button:hover,
+#workspaces button:active {
+    background: linear-gradient(
+        to bottom,
+        #ffff66,
+        #ffeb3b 40%,
+        #e6c200 80%,
+        #b8860b
+    );
+    color: @base;
+    border-radius: 7rem;
+    text-shadow: none;
+    box-shadow:
+        0 6px 12px rgba(0, 0, 0, 0.4),
+        inset 0 -3px 6px rgba(0, 0, 0, 0.45),
+        inset 0 3px 4px rgba(255, 255, 255, 0.35);
+}
+
+/* Sliders */
+#pulseaudio-slider slider,
+#backlight-slider slider {
+    min-width: 0px;
+    min-height: 0px;
+    opacity: 0;
+    background-image: none;
+    border: none;
+    box-shadow: none;
+}
+
+#pulseaudio-slider trough,
+#backlight-slider trough {
+    min-width: 80px;
+    min-height: 5px;
+    border-radius: 5px;
+    background-color: @surface0;
+}
+
+#pulseaudio-slider highlight,
+#backlight-slider highlight {
+    min-height: 10px;
+    border-radius: 5px;
+    background-color: @yellow;
+    box-shadow: 0 0 5px @yellow;
+}
+
+/* Media Player */
+#mpris {
+    border-radius: 7rem;
+    background-color: transparent;
+    padding: 0 10px;
+    color: @yellow;
+    margin: 5px 6px;
+}
+
+#mpris:hover {
+    background-color: @red;
+    color: @yellow;
+}
+
+/* Cava Visualizer */
+#custom-cava_mviz {
+    color: @teal;
+    text-shadow: 0 0 4px @yellow;
+}

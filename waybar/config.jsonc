@@ -1,0 +1,27 @@
+// ~/.config/waybar/config
+[
+  {
+    "layer": "top",
+    "position": "top",
+    "spacing": 2,
+    "modules-left": [
+      "battery",
+      "power-profiles-daemon",
+      "custom/cava_mviz",
+      "mpris",
+      "wlr/taskbar",
+    ],
+    "modules-center": ["hyprland/workspaces"],
+    "modules-right": [
+      "idle_inhibitor",
+      "pulseaudio",
+      "backlight",
+      "network#speed",
+      "bluetooth",
+      "custom/swaync",
+      "clock",
+      "custom/power",
+    ],
+    "include": ["~/.config/waybar/modules.json"],
+  },
+]

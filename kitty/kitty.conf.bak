@@ -1,0 +1,52 @@
+font_family Fira Code SemiBold
+font_size 12.0
+bold_font auto
+italic_font auto
+bold_italic_font auto
+
+background_opacity 0.7
+confirm_os_window_close 0
+
+# change to x11 or wayland or leave auto
+linux_display_server auto
+
+scrollback_lines 2000
+wheel_scroll_min_lines 1
+
+enable_audio_bell no
+window_padding_width 4
+
+# ----- Cyberpunk Yellowish-Red Theme -----
+
+foreground         #FFD6D9
+background         #0F0D18
+cursor             #FFD6D9
+
+active_tab_foreground     #0F0D18
+active_tab_background     #FFD6D9
+inactive_tab_foreground   #FFD6D9
+inactive_tab_background   #0F0D18
+
+active_border_color   #FFD6D9
+inactive_border_color #0F0D18
+bell_border_color     #330000
+
+color0  #1E1A24   # black
+color1  #FF0044   # red
+color2  #FF6F00   # green (neon orange)
+color3  #FFB300   # yellow (hot)
+color4  #6C1EFF   # blue (electric violet)
+color5  #FF55FF   # magenta (neon pink)
+color6  #0abdc6   # cyan (teal neon)
+color7  #FFD6D9   # white (soft pink white)
+
+color8  #332C3D   # bright black
+color9  #FF1F5A   # bright red
+color10 #FF8F1F   # bright green
+color11 #FFD000   # bright yellow
+color12 #8C4CFF   # bright blue
+color13 #FF77FF   # bright magenta
+color14 #10F0FF   # bright cyan
+color15 #FFFFFF   # bright white
+
+# ----- End Theme -----

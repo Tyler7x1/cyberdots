@@ -1,0 +1,26 @@
+// ~/.config/waybar/config
+[
+  {
+    "output": "HDMI-A-1",
+    "layer": "top",
+    "position": "top",
+    "spacing": 2,
+    "modules-left": [
+      "battery",
+      "power-profiles-daemon",
+      "mpris",
+      "wlr/taskbar",
+    ],
+    "modules-center": ["hyprland/workspaces"],
+    "modules-right": [
+      "pulseaudio",
+      "backlight",
+      "network#speed",
+      "bluetooth",
+      "custom/swaync",
+      "clock",
+      "custom/power",
+    ],
+    "include": ["~/.config/waybar/modules.json"],
+  },
+]

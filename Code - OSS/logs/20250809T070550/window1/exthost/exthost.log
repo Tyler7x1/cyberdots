@@ -1,0 +1,23 @@
+2025-08-09 07:05:52.347 [info] Extension host with pid 4004 started
+2025-08-09 07:05:52.347 [info] Skipping acquiring lock for /home/tyler/.config/Code - OSS/User/workspaceStorage/c86529205e5f8b3040da502d154d447c.
+2025-08-09 07:05:52.368 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2025-08-09 07:05:52.621 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-08-09 07:05:52.683 [info] Eager extensions activated
+2025-08-09 07:05:52.765 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-08-09 07:05:52.768 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-08-09 07:05:55.176 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2025-08-09 07:11:02.473 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-08-09 07:11:02.573 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-08-09 07:11:55.900 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-08-09 07:11:55.910 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-08-09 07:11:55.973 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-08-09 07:42:52.035 [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onOpenExternalUri:http'
+2025-08-09 07:43:13.382 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2025-08-09 07:43:13.397 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2025-08-09 07:43:13.823 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2025-08-09 07:44:12.584 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2025-08-09 07:48:01.652 [info] ExtensionService#_doActivateExtension vscode.media-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
+2025-08-09 07:51:11.014 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2025-08-09 08:00:15.549 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2025-08-09 10:27:00.793 [info] Extension host terminating: renderer closed the MessagePort
+2025-08-09 10:27:00.813 [info] Extension host with pid 4004 exiting with code 0

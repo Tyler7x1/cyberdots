@@ -1,0 +1,149 @@
+[10:30:14 INFO  SMAPI] SMAPI 4.3.2 with Stardew Valley 1.6.15 build 24356 on Unix 6.15.9.1
+[10:30:14 INFO  SMAPI] Mods go here: ~/.local/share/Steam/steamapps/common/Stardew Valley/Mods
+[10:30:14 TRACE SMAPI] Log started at 2025-08-09T05:00:14 UTC
+[10:30:19 DEBUG SMAPI] Waiting for game to launch...
+[10:30:20 TRACE game] Instance_Initialize() finished, elapsed = '00:00:00.4938670'
+[10:30:20 DEBUG SMAPI] Loading mod metadata...
+[10:30:20 DEBUG SMAPI] Loading mods...
+[10:30:20 TRACE SMAPI]    Becoming Familiar (from Mods/Becoming Familiar, ID: <unknown>)...
+[10:30:20 TRACE SMAPI]       Failed: parsing its manifest failed:
+System.UnauthorizedAccessException: Access to the path '/home/tyler/.local/share/Steam/steamapps/common/Stardew Valley/Mods/Becoming Familiar/manifest.json' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding)
+   at System.IO.File.ReadAllText(String path)
+   at StardewModdingAPI.Toolkit.Serialization.JsonHelper.ReadJsonFileIfExists[TModel](String fullPath, TModel& result) in E:\source\_Stardew\SMAPI\src\SMAPI.Toolkit\Serialization\JsonHelper.cs:line 54
+   at StardewModdingAPI.Toolkit.Framework.ModScanning.ModScanner.ReadFolder(DirectoryInfo root, DirectoryInfo searchFolder, Boolean useCaseInsensitiveFilePaths) in E:\source\_Stardew\SMAPI\src\SMAPI.Toolkit\Framework\ModScanning\ModScanner.cs:line 161
+[10:30:20 TRACE SMAPI]    The Return of Immersive Scarecrows (from Mods/ImmersiveScarecrows/ImmersiveScarecrows.dll, ID: lucaskfreitas.ImmersiveScarecrows, assembly version: 1.0.0)...
+[10:30:20 TRACE SMAPI]       Rewrote ImmersiveScarecrows.dll to fix GameLocation.getTileIndexAt method...
+[10:30:20 TRACE SMAPI]       Detected game patcher in assembly ImmersiveScarecrows.dll.
+[10:30:20 TRACE SMAPI]    Health & Stamina Regeneration (from Mods/HealthStaminaRegen/HealthStaminaRegen.dll, ID: Jessebot.HealthStaminaRegen, assembly version: 1.0.0)...
+[10:30:20 TRACE SMAPI]       Rewrote HealthStaminaRegen.dll for OS...
+[10:30:21 TRACE SMAPI]    SkullCavernElevator (from Mods/SkullCavernElevator/SkullCavernElevator.dll, ID: SkullCavernElevator, assembly version: 1.6.0)...
+[10:30:21 TRACE SMAPI]    Generic Mod Config Menu (from Mods/GenericModConfigMenu/GenericModConfigMenu.dll, ID: spacechase0.GenericModConfigMenu, assembly version: 1.15.0)...
+[10:30:21 TRACE SMAPI]       Detected direct console access (System.Console type) in assembly GenericModConfigMenu.dll.
+[10:30:21 TRACE SMAPI]    UI Info Suite 2 (from Mods/UIInfoSuite2/UIInfoSuite2.dll, ID: Annosz.UiInfoSuite2, assembly version: 2.3.7)...
+[10:30:21 TRACE SMAPI]    ItsTimeToWakeUp (from Mods/ItsTimeToWakeUp/ItsTimeToWakeUp.dll, ID: Krutonium.ItsTimeToWakeUp, assembly version: 1.0.0)...
+[10:30:21 TRACE SMAPI]    Console Commands (from Mods/ConsoleCommands/ConsoleCommands.dll, ID: SMAPI.ConsoleCommands, assembly version: 4.3.2)...
+[10:30:21 TRACE SMAPI]    Save Backup (from Mods/SaveBackup/SaveBackup.dll, ID: SMAPI.SaveBackup, assembly version: 4.3.2)...
+[10:30:21 TRACE SMAPI]    Lookup Anything (from Mods/LookupAnything/LookupAnything.dll, ID: Pathoschild.LookupAnything, assembly version: 1.52.1)...
+[10:30:21 TRACE SMAPI]    TimeSpeed (from Mods/TimeSpeed/TimeSpeed.dll, ID: cantorsdust.TimeSpeed, assembly version: 2.7.10)...
+[10:30:21 INFO  SMAPI] Loaded 10 mods:
+[10:30:21 INFO  SMAPI]    Console Commands 4.3.2 by SMAPI | Adds SMAPI console commands that let you manipulate the game.
+[10:30:21 INFO  SMAPI]    Generic Mod Config Menu 1.15.0 by spacechase0 | Adds an in-game UI to edit other mods' config options (for mods which support it).
+[10:30:21 INFO  SMAPI]    Health & Stamina Regeneration 2.0.2 by Jessebot | Health and Stamina will regenerate overtime
+[10:30:21 INFO  SMAPI]    ItsTimeToWakeUp 1.0.0 by Krutonium | Configurable Wake up time!
+[10:30:21 INFO  SMAPI]    Lookup Anything 1.52.1 by Pathoschild | View metadata about anything by pressing a button.
+[10:30:21 INFO  SMAPI]    Save Backup 4.3.2 by SMAPI | Automatically backs up all your saves once per day into its folder.
+[10:30:21 INFO  SMAPI]    SkullCavernElevator 1.6.2 by lestoph | Elevator for the Skull Cavern
+[10:30:21 INFO  SMAPI]    The Return of Immersive Scarecrows 1.0.7 by lucaskfreitas | Immersive Scarecrows (originally by aedenthorn) made compatible with Stardew Valley 1.6
+[10:30:21 INFO  SMAPI]    TimeSpeed 2.7.10 by cantorsdust and Pathoschild | Lets you control the flow of time in the game: speed it up, slow it down, or freeze it altogether.
+[10:30:21 INFO  SMAPI]    UI Info Suite 2 2.3.7 by Annosz | Adds a useful information to the user interface. Based on Cdaragorn's excellent UI Info Suite.
+
+[10:30:21 ERROR SMAPI]    Skipped mods
+[10:30:21 ERROR SMAPI]    --------------------------------------------------
+[10:30:21 ERROR SMAPI]       These mods could not be added to your game.
+
+[10:30:21 ERROR SMAPI]       - Becoming Familiar because parsing its manifest failed:
+System.UnauthorizedAccessException: Access to the path '/home/tyler/.local/share/Steam/steamapps/common/Stardew Valley/Mods/Becoming Familiar/manifest.json' is denied.
+ ---> System.IO.IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding)
+   at System.IO.File.ReadAllText(String path)
+   at StardewModdingAPI.Toolkit.Serialization.JsonHelper.ReadJsonFileIfExists[TModel](String fullPath, TModel& result) in E:\source\_Stardew\SMAPI\src\SMAPI.Toolkit\Serialization\JsonHelper.cs:line 54
+   at StardewModdingAPI.Toolkit.Framework.ModScanning.ModScanner.ReadFolder(DirectoryInfo root, DirectoryInfo searchFolder, Boolean useCaseInsensitiveFilePaths) in E:\source\_Stardew\SMAPI\src\SMAPI.Toolkit\Framework\ModScanning\ModScanner.cs:line 161
+
+[10:30:21 INFO  SMAPI]    Patched game code
+[10:30:21 INFO  SMAPI]    --------------------------------------------------
+[10:30:21 INFO  SMAPI]       These mods directly change the game code. They're more likely to cause errors or bugs in-game; if
+[10:30:21 INFO  SMAPI]       your game has issues, try removing these first. Otherwise you can ignore this warning.
+
+[10:30:21 INFO  SMAPI]       - The Return of Immersive Scarecrows
+
+[10:30:21 TRACE SMAPI]    Direct console access
+[10:30:21 TRACE SMAPI]    --------------------------------------------------
+[10:30:21 TRACE SMAPI]       These mods access the SMAPI console window directly. This is more fragile, and their output may not
+[10:30:21 TRACE SMAPI]       be logged by SMAPI.
+
+[10:30:21 TRACE SMAPI]       - Generic Mod Config Menu
+
+[10:30:21 DEBUG SMAPI] Launching mods...
+[10:30:22 ERROR Generic Mod Config Menu] Mod crashed on entry and might not work correctly. Technical details:
+UnauthorizedAccessException: Access to the path '/home/tyler/.local/share/Steam/steamapps/common/Stardew Valley/Mods/GenericModConfigMenu/config.json' is denied.
+ ---> IOException: Permission denied
+   --- End of inner exception stack trace ---
+   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirectory, Func`2 errorRewriter)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode)
+   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)
+   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)
+   at System.IO.StreamWriter.ValidateArgsAndOpenPath(String path, Boolean append, Encoding encoding, Int32 bufferSize)
+   at System.IO.File.WriteAllText(String path, String contents)
+   at StardewModdingAPI.Framework.ModHelpers.ModHelper.ReadConfig[TConfig]() in SMAPI\Framework\ModHelpers\ModHelper.cs:line 102
+   at GenericModConfigMenu.Mod.Entry(IModHelper helper) in C:\Users\space\Programming\StardewValley\StardewValleyMods\GenericModConfigMenu\Mod.cs:line 94
+   at StardewModdingAPI.Framework.SCore.LoadMods(IModMetadata[] mods, JsonHelper jsonHelper, ContentCoordinator contentCore, ModDatabase modDatabase) in SMAPI\Framework\SCore.cs:line 1950
+[10:30:22 TRACE Save Backup] Backed up to /home/tyler/.local/share/Steam/steamapps/common/Stardew Valley/save-backups/2025-08-09 - SMAPI 4.3.2 with Stardew Valley 1.6.15.zip.
+[10:30:22 DEBUG SMAPI] Mods loaded and ready!
+[10:30:22 TRACE SMAPI] Checking for updates...
+[10:30:22 TRACE game] setGameMode( 'titleScreenGameMode (0)' )
+[10:30:22 TRACE game] Instance_LoadContent() finished, elapsed = '00:00:02.5099507'
+[10:30:22 TRACE game] Steam logged on: True
+[10:30:22 TRACE game] Initializing GalaxySDK
+[10:30:22 TRACE game] Requesting Steam app ticket
+[10:30:22 ERROR game] Error initializing the Galaxy API.
+TypeInitializationException: The type initializer for 'Galaxy.Api.GalaxyInstancePINVOKE' threw an exception.
+ ---> TypeInitializationException: The type initializer for 'SWIGExceptionHelper' threw an exception.
+ ---> DllNotFoundException: Unable to load shared library 'GalaxyCSharpGlue' or one of its dependencies. In order to help diagnose loading problems, consider setting the LD_DEBUG environment variable: libGalaxyCSharpGlue: cannot open shared object file: No such file or directory
+   at Galaxy.Api.GalaxyInstancePINVOKE.SWIGExceptionHelper.SWIGRegisterExceptionCallbacks_GalaxyInstance(ExceptionDelegate applicationDelegate, ExceptionDelegate arithmeticDelegate, ExceptionDelegate divideByZeroDelegate, ExceptionDelegate indexOutOfRangeDelegate, ExceptionDelegate invalidCastDelegate, ExceptionDelegate invalidOperationDelegate, ExceptionDelegate ioDelegate, ExceptionDelegate nullReferenceDelegate, ExceptionDelegate outOfMemoryDelegate, ExceptionDelegate overflowDelegate, ExceptionDelegate systemExceptionDelegate)
+   at Galaxy.Api.GalaxyInstancePINVOKE.SWIGExceptionHelper..cctor()
+   --- End of inner exception stack trace ---
+   at Galaxy.Api.GalaxyInstancePINVOKE.SWIGExceptionHelper..ctor()
+   at Galaxy.Api.GalaxyInstancePINVOKE..cctor()
+   --- End of inner exception stack trace ---
+   at Galaxy.Api.GalaxyInstancePINVOKE.new_InitParams__SWIG_3(String jarg1, String jarg2, String jarg3)
+   at StardewValley.SDKs.Steam.SteamHelper.Initialize() in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\Farmer\Farmer\SDKs\Steam\SteamHelper.cs:line 90
+[10:30:22 INFO  SMAPI] Type 'help' for help, or 'help <cmd>' for a command's usage
+[10:30:22 TRACE The Return of Immersive Scarecrows] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+[10:30:23 TRACE Health & Stamina Regeneration] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+[10:30:23 INFO  Generic Mod Config Menu] Jessebot.HealthStaminaRegen (registering for Jessebot.HealthStaminaRegen) is using deprecated code (RegisterModConfig) that will break in a future version of GMCM.
+[10:30:23 TRACE SkullCavernElevator] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+[10:30:23 TRACE UI Info Suite 2] Registered Sound: Annosz.UiInfoSuite2.sounds.LevelUp
+[10:30:23 TRACE UI Info Suite 2] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+[10:30:23 INFO  UI Info Suite 2] Loaded API for mod spacechase0.GenericModConfigMenu
+[10:30:23 TRACE Lookup Anything] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+[10:30:23 TRACE TimeSpeed] Accessed mod-provided API (GenericModConfigMenu.Framework.Api) for Generic Mod Config Menu.
+[10:30:23 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:320 Y:180 Width:1280 Height:720}
+[10:30:23 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:962 Y:55 Width:944 Height:1011}
+[10:30:23 TRACE game] Signing into GalaxySDK
+[10:30:23 ERROR game] Galaxy SignInSteam failed with an exception:
+TypeInitializationException: The type initializer for 'Galaxy.Api.GalaxyInstance' threw an exception.
+ ---> TypeInitializationException: The type initializer for 'CustomExceptionHelper' threw an exception.
+ ---> DllNotFoundException: Unable to load shared library 'GalaxyCSharpGlue' or one of its dependencies. In order to help diagnose loading problems, consider setting the LD_DEBUG environment variable: libGalaxyCSharpGlue: cannot open shared object file: No such file or directory
+   at Galaxy.Api.GalaxyInstance.CustomExceptionHelper.CustomExceptionRegisterCallback(CustomExceptionDelegate customCallback)
+   at Galaxy.Api.GalaxyInstance.CustomExceptionHelper..cctor()
+   --- End of inner exception stack trace ---
+   at Galaxy.Api.GalaxyInstance.CustomExceptionHelper..ctor()
+   at Galaxy.Api.GalaxyInstance..cctor()
+   --- End of inner exception stack trace ---
+   at Galaxy.Api.GalaxyInstance.User()
+   at StardewValley.SDKs.Steam.SteamHelper.onEncryptedAppTicketResponse(EncryptedAppTicketResponse_t response, Boolean ioFailure) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\Farmer\Farmer\SDKs\Steam\SteamHelper.cs:line 251
+[10:30:23 TRACE SMAPI]    SMAPI okay.
+[10:30:23 TRACE SMAPI]    Checking for updates to 8 mods...
+[10:30:24 TRACE SMAPI]    All mods up to date.
+[10:30:25 TRACE SMAPI]    Mod blacklist OK.
+[10:30:28 TRACE game] Window_ClientSizeChanged(); Window.ClientBounds={X:0 Y:0 Width:1920 Height:1080}
+[19:36:46 TRACE game] Disconnected: ClosedGame
+[19:36:46 TRACE SMAPI] Disposing...
+[19:36:46 TRACE SMAPI] Disposing the content coordinator. Content managers will no longer be usable after this point.

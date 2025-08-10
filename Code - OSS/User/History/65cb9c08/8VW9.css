@@ -1,0 +1,49 @@
+window {
+    font-family: "SpaceMono Nerd Font", monospace;
+    font-size: 13pt;
+    color: #fffed0;
+    background-color: rgba(10, 10, 20, 0.7);
+}
+
+button {
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 26px;
+    padding: 60px 20px;
+    background-size: 50%;
+    color: #ff9933;
+
+    text-shadow:
+        0 0 4px #ff9933,
+        0 0 8px #ff9933;
+
+    border-radius: 50px;
+    background-color: rgba(255, 120, 20, 0.6); /* translucent orange */
+    border: 2px solid black;
+    margin: 8px;
+
+    box-shadow:
+        0 0 18px rgba(255, 140, 0, 0.7),
+        0 0 12px rgba(255, 100, 0, 0.5),
+        inset 0 0 6px rgba(255, 190, 120, 0.2);
+
+    transition:
+        background-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+button:hover {
+    background-color: rgba(255, 140, 40, 0.9);
+    box-shadow:
+        0 0 24px rgba(255, 120, 0, 1),
+        0 0 16px rgba(255, 80, 0, 0.8),
+        inset 0 0 10px rgba(255, 210, 150, 0.4);
+}
+
+/* Icons */
+#lock      { background-image: url("icons/lock.png"); }
+#logout    { background-image: url("icons/logout.png"); }
+#suspend   { background-image: url("icons/suspend.png"); }
+#shutdown  { background-image: url("icons/shutdown.png"); }
+#reboot    { background-image: url("icons/reboot.png"); }
+#hibernate { background-image: url("icons/hibernate.png"); }

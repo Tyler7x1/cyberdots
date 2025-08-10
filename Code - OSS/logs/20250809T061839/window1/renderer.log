@@ -1,0 +1,5 @@
+2025-08-09 06:18:40.806 [info] Started local extension host with pid 1480.
+2025-08-09 06:18:43.508 [info] [perf] Render performance baseline is 21ms
+2025-08-09 06:18:47.996 [info] Started local extension host with pid 1724.
+2025-08-09 06:18:48.041 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-08-09 06:18:50.606 [info] [perf] Render performance baseline is 21ms

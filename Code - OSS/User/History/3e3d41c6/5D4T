@@ -1,0 +1,8 @@
+allow_images=true
+hide_scroll=true
+no_actions=false
+term=kitty
+mode=drun
+insensitive=true
+columns=2
+sort_order=alphabetical

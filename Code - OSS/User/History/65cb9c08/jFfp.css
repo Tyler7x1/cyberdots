@@ -1,0 +1,45 @@
+window {
+    font-family: "SpaceMono Nerd Font", monospace;
+    font-size: 13pt;
+    color: #fffed0;
+    background-color: rgba(10, 10, 20, 0.7); /* Cyberpunk translucent backdrop */
+}
+
+button {
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 26px;
+    padding: 60px 20px;
+    background-size: 50%;
+    border: none;
+    color: #ffff66;
+    text-shadow:
+        0 0 3px #ffff66,
+        0 0 6px #ffff66;
+
+    border-radius: 50px;
+    background-color: rgba(255, 255, 0, 0.5); /* Slightly transparent yellow */
+    margin: 8px;
+
+    box-shadow:
+        0 0 25px rgba(255, 0, 50, 0.8),   /* brighter outer red glow */
+        inset 0 0 10px rgba(255, 255, 100, 0.2);
+    transition:
+        background-color 0.2s ease,
+        box-shadow 0.2s ease;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 100, 0.9); /* More opaque on hover */
+    box-shadow:
+        0 0 35px rgba(255, 0, 50, 1),     /* intense red glow */
+        inset 0 0 12px rgba(255, 255, 120, 0.9);
+}
+
+/* Icon mappings */
+#lock      { background-image: url("icons/lock.png"); }
+#logout    { background-image: url("icons/logout.png"); }
+#suspend   { background-image: url("icons/suspend.png"); }
+#shutdown  { background-image: url("icons/shutdown.png"); }
+#reboot    { background-image: url("icons/reboot.png"); }
+#hibernate { background-image: url("icons/hibernate.png"); }

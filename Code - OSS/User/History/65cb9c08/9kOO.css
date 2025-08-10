@@ -1,0 +1,64 @@
+window {
+    font-family: "SpaceMono Nerd Font", monospace;
+    font-size: 13pt;
+    color: #fffed0;
+    background-color: rgba(10, 10, 20, 0.7); /* Cyberpunk backdrop */
+}
+
+button {
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 26px;
+    padding: 60px 20px;
+    background-size: 50%;
+    border: none;
+    color: #ffff66;
+
+    text-shadow:
+        0 0 4px #ffff66,
+        0 0 8px #ffff66;
+
+    border-radius: 50px;
+    background-color: rgba(255, 255, 0, 0.5);
+    margin: 8px;
+
+    /* Glow: Blue (top-left) → Acid Green (bottom-right) gradient illusion */
+    box-shadow:
+        /* Outer glow */
+        -4px -4px 12px rgba(0, 255, 255, 0.6),   /* neon blue soft glow */
+        4px 4px 12px rgba(173, 255, 47, 0.6),    /* acid green soft glow */
+        -6px -6px 24px rgba(0, 255, 255, 0.4),
+        6px 6px 24px rgba(173, 255, 47, 0.4),
+        -10px -10px 48px rgba(0, 255, 255, 0.3),
+        10px 10px 48px rgba(173, 255, 47, 0.3),
+
+        /* Inset center glow */
+        inset 0 0 12px rgba(255, 255, 150, 0.5),
+        inset 0 0 24px rgba(255, 255, 180, 0.2);
+
+    transition:
+        background-color 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 100, 0.9);
+    box-shadow:
+        -5px -5px 16px rgba(0, 255, 255, 0.8),
+        5px 5px 16px rgba(173, 255, 47, 0.8),
+        -10px -10px 32px rgba(0, 255, 255, 0.5),
+        10px 10px 32px rgba(173, 255, 47, 0.5),
+        -15px -15px 64px rgba(0, 255, 255, 0.3),
+        15px 15px 64px rgba(173, 255, 47, 0.3),
+
+        inset 0 0 20px rgba(255, 255, 150, 0.8),
+        inset 0 0 30px rgba(255, 255, 200, 0.4);
+}
+
+/* Icon mappings */
+#lock      { background-image: url("icons/lock.png"); }
+#logout    { background-image: url("icons/logout.png"); }
+#suspend   { background-image: url("icons/suspend.png"); }
+#shutdown  { background-image: url("icons/shutdown.png"); }
+#reboot    { background-image: url("icons/reboot.png"); }
+#hibernate { background-image: url("icons/hibernate.png"); }

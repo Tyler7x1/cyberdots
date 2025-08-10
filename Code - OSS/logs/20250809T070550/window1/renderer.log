@@ -1,0 +1,61 @@
+2025-08-09 07:05:51.762 [info] Started local extension host with pid 4004.
+2025-08-09 07:05:51.812 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-08-09 07:05:54.430 [info] [perf] Render performance baseline is 144ms
+2025-08-09 07:38:30.991 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-08-09 07:43:13.825 [error] [Extension Host] (node:4004) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2025-08-09 07:51:50.965 [error] Error: The editor could not be opened because the file was not found.
+    at IIe.gc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2544:120758)
+    at async IIe.setInput (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2544:119916)
+    at async K_e.S (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:602:57818)
+    at async K_e.L (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:602:56373)
+    at async K_e.openEditor (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:602:55455)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:714:23350
+    at async eqe.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1200:30830)
+    at async eqe.openCodeEditor (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1200:21813)
+    at async QKe.open (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1268:634)
+    at async ZKe.open (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1268:1689)
+2025-08-09 07:52:03.870 [error] Error: The editor could not be opened because the file was not found.
+    at IIe.gc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2544:120758)
+    at async IIe.setInput (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2544:119916)
+    at async K_e.S (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:602:57818)
+    at async K_e.L (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:602:56373)
+    at async K_e.openEditor (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:602:55455)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:714:23350
+    at async eqe.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1200:30830)
+    at async eqe.openCodeEditor (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1200:21813)
+    at async QKe.open (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1268:634)
+    at async ZKe.open (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1268:1689)
+2025-08-09 08:16:19.319 [error] Error: The editor could not be opened because the file was not found.
+    at IIe.gc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2544:120758)
+    at async IIe.setInput (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2544:119916)
+    at async K_e.S (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:602:57818)
+    at async K_e.L (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:602:56373)
+    at async K_e.openEditor (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:602:55455)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:714:23350
+    at async eqe.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1200:30830)
+    at async eqe.openCodeEditor (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1200:21813)
+    at async QKe.open (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1268:634)
+    at async ZKe.open (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1268:1689)
+2025-08-09 08:16:34.976 [error] Error: The editor could not be opened because the file was not found.
+    at IIe.gc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2544:120758)
+    at async IIe.setInput (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2544:119916)
+    at async K_e.S (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:602:57818)
+    at async K_e.L (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:602:56373)
+    at async K_e.openEditor (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:602:55455)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:714:23350
+    at async eqe.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1200:30830)
+    at async eqe.openCodeEditor (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1200:21813)
+    at async QKe.open (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1268:634)
+    at async ZKe.open (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1268:1689)
+2025-08-09 08:18:15.660 [error] Error: The editor could not be opened because the file was not found.
+    at IIe.gc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2544:120758)
+    at async IIe.setInput (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2544:119916)
+    at async K_e.S (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:602:57818)
+    at async K_e.L (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:602:56373)
+    at async K_e.openEditor (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:602:55455)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:714:23350
+    at async eqe.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1200:30830)
+    at async eqe.openCodeEditor (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1200:21813)
+    at async QKe.open (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1268:634)
+    at async ZKe.open (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:1268:1689)

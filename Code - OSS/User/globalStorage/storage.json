@@ -1,0 +1,97 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "f15d42c0619af2a0e98ad2a77b2e3c2ad3e588ac3bf8211b4503b90b57080dbb",
+    "telemetry.devDeviceId": "c1068348-67b2-426b-bd9c-257403f13157",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/tyler/Code"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 35,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/tyler/.local/share/Steam/steamapps/common/Stardew%20Valley": "__default__profile__",
+            "file:///home/tyler/.local/share/Steam/steamapps/common/Stardew%20Valley/Mods": "__default__profile__",
+            "file:///home/tyler/.config/wlogout": "__default__profile__",
+            "file:///home/tyler/.config/waybar": "__default__profile__",
+            "file:///home/tyler/.config": "__default__profile__",
+            "file:///home/tyler/Code": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "hc-black",
+    "themeBackground": "#000000",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "hc-black",
+        "colorInfo": {
+            "foreground": "#ffffff",
+            "background": "#000000",
+            "editorBackground": "#000000",
+            "titleBarBackground": "#000000",
+            "titleBarBorder": "#6fc3df",
+            "activityBarBackground": "#000000",
+            "activityBarBorder": "#6fc3df",
+            "sideBarBackground": "#000000",
+            "sideBarBorder": "#6fc3df",
+            "statusBarBorder": "#6fc3df",
+            "windowBorder": "#6fc3df"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/tyler/Code",
+            "backupPath": "/home/tyler/.config/Code - OSS/Backups/90785babc82f1da9ceff6a01d2b48f8a",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 683,
+                "height": 723
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "42a8130d2feaca29f3af8e91c62db847": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "5397b6c878d748196d69adb4151f4ce9": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "8d2876e6df503cf5a2829c7101eb3817": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "587190281d379b9c783be7db8bc873de": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "c86529205e5f8b3040da502d154d447c": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}
